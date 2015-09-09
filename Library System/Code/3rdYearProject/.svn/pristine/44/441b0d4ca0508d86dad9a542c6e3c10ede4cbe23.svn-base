@@ -1,0 +1,7 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Book List</h2>
+
+<p>Hello from our View Template!</p>

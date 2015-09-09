@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+
+<h2>Welcome</h2>
+
+<img src="../../Content/images/SDCC.PNG" alt="South Dublin County Council" />
+
+<p>To the staff's new Library System. This is an updated version of the current system in place at the moment.</p>
+
+<p>This system is only working for books currently in the library but will later integrate DVDs, CDs and E-Books.</p>

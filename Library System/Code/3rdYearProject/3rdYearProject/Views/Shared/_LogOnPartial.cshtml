@@ -1,0 +1,11 @@
+﻿@if(Request.IsAuthenticated) {
+    <text>[ @Html.ActionLink("Log Off", "LogOff", "Account") ]</text>
+    <nav>
+       <ul id="menu">
+          <li>@Html.ActionLink("Books", "SearchIndex", "Books")</li>
+       </ul>
+    </nav>
+}
+else {
+    @:[ @Html.ActionLink("Log On", "LogOn", "Account") ]
+}
