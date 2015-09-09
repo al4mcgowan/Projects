@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Gmanager" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^c:\\users\\richard\\documents\\visual\ studio\ 2013\\Projects\\Gm\\Gm\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^c:\\users\\richard\\documents\\visual\ studio\ 2013\\Projects\\Gm\\Gm\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:hczaeznq9y.database.windows.net,1433;Initial Catalog=Gmanager_db;Integrated Security=False;User ID=X00080345@hczaeznq9y;Password=AlanM092;Connect Timeout=30;Encrypt=True" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\richard\\documents\\visual\ studio\ 2013\\Projects\\Gm\\Gm\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,106 @@
+﻿@model Gm.Models.Grave
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Grave</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Cemetery)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Cemetery)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RowID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RowID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GraveNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GraveNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Address)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Address)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DOB)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DOB)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DOD)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DOD)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.InGrave)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.InGrave)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Longitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Longitude)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Latitude)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Latitude)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.GraveID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
