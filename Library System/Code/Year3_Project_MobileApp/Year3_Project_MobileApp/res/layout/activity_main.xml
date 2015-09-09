@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- AUTHOR: X00084900 CHRISTOPHER NEWELL -->
+
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingBottom="@dimen/activity_vertical_margin"
+  android:paddingLeft="@dimen/activity_horizontal_margin"
+  android:paddingRight="@dimen/activity_horizontal_margin"
+  android:paddingTop="@dimen/activity_vertical_margin">
+  
+    
+    
+    <TextView
+        android:id="@+id/GetAllText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Main_Option1"
+        android:textSize="14sp"
+        android:textAppearance="?android:attr/textAppearanceMedium">
+        </TextView>
+        
+    
+	<Button 
+	    android:id="@+id/GetAllBooksButton"
+	    android:layout_width="250dp"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/GetAllText"
+	    android:layout_centerHorizontal="true"
+	    android:text="@string/Get_Books">
+	</Button>
+
+	<TextView
+        android:id="@+id/SearchByText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Main_Option2"
+        android:layout_below="@id/GetAllBooksButton"
+	    android:layout_marginTop="50dp"
+        android:textSize="14sp"
+        android:textAppearance="?android:attr/textAppearanceMedium">
+        </TextView>
+        
+	<Button
+	    android:id="@+id/searchBooksButton"
+	    android:layout_width="250dp"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/SearchByText"
+	    android:layout_centerHorizontal="true"
+	    android:text="@string/Search_Books">
+	    
+	</Button>
+
+	<TextView
+        android:id="@+id/LogInText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Main_Option3"
+        android:layout_below="@id/searchBooksButton"
+	    android:layout_marginTop="50dp"
+        android:textSize="14sp"
+        android:textAppearance="?android:attr/textAppearanceMedium">
+        </TextView>
+	
+	
+	<Button
+	    android:id="@+id/login_Button"
+	    android:layout_width="250dp"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/LogInText"
+	    android:layout_centerHorizontal="true"
+	    android:text="@string/Log_In">
+	    
+	</Button>
+	
+</RelativeLayout>

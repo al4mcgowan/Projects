@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Year3_Project_MobileApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Main_Option1">Press to Retrieve all Books Currently in library.</string>
+    <string name="Main_Option2">Press to Retrieve all Books By Search Criteria.</string>
+    <string name="Main_Option3">Press to Log Into Library Account.</string>
+    <string name="Get_Books">Get Books</string>
+    <string name="Search_Books">Search Books</string>
+	<string name="Ok_ButtonText">Ok</string>
+	<string name="Cancel_ButtonText">Cancel</string>
+    <string name="Log_In">Log In</string>
+    <string name="UserName">UserName:</string>
+    <string name="PassWord">Password:</string>
+    <string name="Confirm_Search">Confirm</string>
+    <string name="Search_Prompt">Select search option</string>
+    <string name="Make_Selection">Please Select a Search Option:</string>
+    <string name="Select_Criteria">Please Enter Search Criteria:</string>
+    
+    <string-array name="Search_Criteria">
+         <item>Title</item>
+        <item>Author</item>
+        <item>Genre</item>
+    </string-array>
+    
+    
+</resources>
